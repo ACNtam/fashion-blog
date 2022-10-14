@@ -6,6 +6,7 @@ import Layout from './components/Layout';
 import Posts from './components/Posts';
 import Details from './components/Details';
 import Contact from './components/Contact';
+import AddPost from './components/AddPost';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Layout />}>
         <Route path='/posts' element={<Posts />} />
           <Route path='/posts/:id' element={<Details />} />
+          <Route path='/addpost' element={<AddPost />} />
           <Route path='/contact' element={<Contact />} />
           <Route index element={<Home/>} />
         </Route>

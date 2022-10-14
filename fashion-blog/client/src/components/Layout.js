@@ -16,6 +16,9 @@ function Layout() {
                     <li>
                         <Link to={"/contact"}>Contact</Link>
                     </li>
+                    <li>
+                        <Link to={"/addPost"}>AddPost</Link>
+                    </li>
                 </ul>
             </nav>
             <main>

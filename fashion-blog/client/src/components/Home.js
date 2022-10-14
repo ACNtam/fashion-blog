@@ -24,11 +24,11 @@ const Home = () => {
             <div className="hero-section">
                     <img src="https://assets.vogue.com/photos/634820cef1508251cc546f0a/16:9/w_2580%2Cc_limit/00-story%25202.jpeg" alt="" />
             </div>
-            <div className="latest">
+            {/* <div className="latest">
             {posts.slice(0,4).map((post, index) => {
                 return <Post key={index} post={post} index={index} />
             })}
-            </div>
+            </div> */}
         </div>
     )
 }

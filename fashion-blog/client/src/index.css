@@ -6,7 +6,7 @@ box-sizing: border-box;
 
 .layout{
   width: 100%;
-  background-color: aquamarine;
+  /* background-color: hotpink; */
 }
 
 .layout nav{
@@ -64,15 +64,62 @@ padding-top: 30px;
 
 .details-page{
   padding: 50px 100px;
-  width: 100%;
+   width: 100%; 
 }
 
-.details-page .detail-image{
+.details-page .detail-img{
   width: 80%; 
   margin: auto; 
 }
 
-.details-page .detail-image img{
-  height: 400px;
-  
+.details-page .detail-img img{
+  height: auto;
+  width: 100%;
 }
+
+.details-page h1{
+  font-size: 50px;
+  font-family: cursive;
+  text-align: center;
+}
+
+.detail-content{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.detail-likes{
+  margin-top: 20px;
+}
+
+.detail-likes h2{
+  background-color: blueviolet;
+  width: fit-content;
+  margin: auto;
+  padding: 3px 9px;
+  border-radius: 15px;
+}
+
+.contact-page{
+  width: fit-content;
+  margin: auto;
+  margin-top: 160px;
+  background-image: url("https://thumbs.dreamstime.com/z/black-white-fashion-illustration-model-runway-black-white-fashion-illustration-model-runway-cute-girl-156020876.jpg");
+
+}
+
+.addPost{
+  width: fit-content;
+  margin: auto;
+  margin-top: 160px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.addPost .title{
+  font-size: 30px;
+  color: blue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+

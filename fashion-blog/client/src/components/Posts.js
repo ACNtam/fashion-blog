@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Post from "./Post";
 
 
+
 const Posts = () => {
 
     const [posts, setPosts] = useState([])
